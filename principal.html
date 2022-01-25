@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <title>DASHBOARD - Gestión de usuarios</title>
+</head>
+
+<body>
+    <div class="d-flex ">
+        <div class="row">
+            <!--- Barra lateral -->
+            <div class="bg-white col-sm-12 col-md-2">
+                <div class="sidebar-heading text-center py-3 primary-text fs-4 fw-bold">
+                    MI TIENDA OUTLET
+                </div>
+
+                <nav class="navbar navbar-nav  navbar-light list-group list-group-flush my-3">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                        <div class="row">
+                            <a href="#" class=" nav-item nav-link list-group-item list-group-item-action bg-primary second-text active ms-3 col-md-12"><i class="fas fa-tachometer-alt"></i>
+                                Dashboard </a>
+                            <a href="#" class="nav-item nav-link  list-group-item list-group-item-action bg-transparent second-text fw-bold ms-3"><i class="fas fa-users"></i>
+                                Usuarios </a>
+                            <a href="#" class="nav-item nav-link  list-group-item list-group-item-action bg-transparent second-text fw-bold ms-3"><i class="fas fa-box-open"></i>
+                                Productos </a>
+                            <a href="#" class="nav-item nav-link  list-group-item list-group-item-action bg-transparent second-text fw-bold ms-3"><i class="fas fa-chart-bar"></i>
+                                Graficos </a>
+                            <a href="#" class="nav-item nav-link  list-group-item list-group-item-action bg-transparent second-text fw-bold ms-3"><i class="fas fa-flag"></i>
+                                Informes </a>
+                            <a href="#" class="nav-item nav-link  list-group-item list-group-item-action bg-transparent second-text fw-bold ms-3"><i class="fas fa-sign-out-alt"></i>
+                                Cerrar sesión </a>
+                        </div>
+
+                    </div>
+                </nav>
+            </div>
+            <!--- Main -->
+            <div id="main-page" class="container-fluid vh-100  col-sm-12 col-md-10">
+                <h2 class="my-3">Dashboard</h2>
+
+                <div class="row text-center ">
+                    <div class="card shadow  m-2 callout-info col-sm-6 col-md-3 flex-grow-1">
+                        <div class="card-body">
+                            <p class="fw-bold text-info text-center col-sm-12"> INGRESOS (Anual)</p>
+                            <h3>1300,00 €</h3>
+                        </div>
+                    </div>
+                    <div class="card shadow  m-2 callout-primary col-sm-6 col-md-3 flex-grow-1">
+                        <div class="card-body">
+                            <p class="fw-bold text-primary text-center col-sm-12">GASTOS (Anual)</p>
+                            <h3>1000,00 €</h3>
+                        </div>
+                    </div>
+                    <div class="card shadow  m-2 callout-success col-sm-12 col-md-3 flex-grow-1">
+                        <div class="card-body">
+                            <p class="fw-bold text-success text-center col-sm-12">BENEFICIOS (Anual)</p>
+                            <h3>300,00 € </h3>
+                        </div>
+                    </div>
+                </div>
+                <h2 class="my-3">Productos </h2>
+                <div class="card shadow">
+                    <div class="card-header fw-bold">Productos más vendidos</div>
+                    <div class="card-body ">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th class="priority-1">IMAGEN</th>
+                                    <th class="priority-2">VENTAS</th>
+                                    <th class="priority-3">CÓDIGO</th>
+                                    <th class="priority-4">PRODUCTO</th>
+                                    <th class="priority-5">PRECIO UNIDAD</th>
+                                    <th class="priority-6">CATEGORÍA</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="align-middle">
+                                    <td class="priority-1"><img src="./img/xiaomi.png" alt="Xiaomi Redmi Note 9 Pro 6/64GB Verde Tropical"></td>
+                                    <td class="priority-2">1232</td>
+                                    <td class="priority-3">299423</td>
+                                    <td class="priority-4">Xiaomi Redmi Note 9 Pro 6/64GB Verde Tropical</td>
+                                    <td class="priority-5">250,25 €</td>
+                                    <td class="priority-6"><span class="btn btn-primary rounded-pill">Smartphone</span></td>
+                                </tr>
+                                <tr class="align-middle">
+                                    <td class="priority-1"><img src="./img/pantalla.png" alt="NewSkill Icarus RGB 27 LED Fast IPS QHD 180Hz G-Sync Compatible"></td>
+                                    <td class="priority-2">1000</td>
+                                    <td class="priority-3">414013</td>
+                                    <td class="priority-4">NewSkill Icarus RGB 27" LED Fast IPS QHD 180Hz G-Sync Compatible</td>
+                                    <td class="priority-5">343,98 €</td>
+                                    <td class="priority-6"><span class="btn btn-primary rounded-pill">Monitores</span></td>
+                                </tr>
+                                <tr class="align-middle">
+                                    <td class="priority-1"><img src="./img/mouse.png" alt="Tempest X20W Vigilant Raton Gaming Inalámbrico"></td>
+                                    <td class="priority-2">855</td>
+                                    <td class="priority-3">433507</td>
+                                    <td class="priority-4">Tempest X20W Vigilant Raton Gaming Inalámbrico</td>
+                                    <td class="priority-5">49,99 €</td>
+                                    <td class="priority-6"><span class="btn btn-primary rounded-pill">Periféricos</span></td>
+                                </tr>
+                                <tr class="align-middle">
+                                    <td class="priority-1"><img src="./img/webcam.png" alt="Logitech C920s Pro Webcam"></td>
+                                    <td class="priority-2">711</td>
+                                    <td class="priority-3">258324</td>
+                                    <td class="priority-4">Logitech C920s Pro Webcam</td>
+                                    <td class="priority-5">75,99 €</td>
+                                    <td class="priority-6"><span class="btn btn-primary rounded-pill">Periféricos</span></td>
+                                </tr>
+                                <tr class="align-middle">
+                                    <td class="priority-1"><img src="./img/torre.png" alt="Tempest Vapor USB 3.0 Ventana RGB Negro"></td>
+                                    <td class="priority-2">425</td>
+                                    <td class="priority-3">386825</td>
+                                    <td class="priority-4">Tempest Vapor USB 3.0 Ventana RGB Negro</td>
+                                    <td class="priority-5">56,99 €</td>
+                                    <td class="priority-6"><span class="btn btn-primary rounded-pill">Componentes</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--- Footer -->
+    <div class="footer text-center fw-bold bg-dark p-4 text-white fixed-bottom d-none d-lg-block">Fulgencio Marin Talavera - Copyright © 2022</div>
+</body>
+
+</html>

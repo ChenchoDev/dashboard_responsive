@@ -1,0 +1,104 @@
+            * {
+                font-family: 'Nunito', Verdana, sans-serif;
+            }
+            
+            body.login {
+                background-color: #34889c;
+                background: linear-gradient(to right, #34889c, #4678c8);
+            }
+            
+            .bg-login {
+                background-image: url('../img/login.svg');
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+            
+            #main-page {
+                background-color: #f8f9fc;
+            }
+            
+            .callout-primary {
+                border-left-width: 6px;
+                border-left-color: #428bca;
+            }
+            
+            .callout-success {
+                border-left-width: 6px;
+                border-left-color: #1cc88a;
+            }
+            
+            .callout-info {
+                border-left-width: 6px;
+                border-left-color: #36b9cc;
+                ;
+            }
+            /*Estilos propios */
+            
+            .container {
+                max-height: 100vh;
+            }
+            
+            @media screen and (max-width: 1225px) and (min-width: 1045px) {
+                .priority-2 {
+                    display: none;
+                }
+            }
+            
+            @media screen and (max-width: 1045px) and (min-width: 300px) {
+                .priority-2 {
+                    display: none;
+                }
+                .priority-3 {
+                    display: none;
+                }
+            }
+            
+            @media screen and (max-width: 575px) {
+                .priority-2 {
+                    display: none;
+                }
+                .priority-3 {
+                    display: none;
+                }
+                .priority-4 {
+                    display: none;
+                }
+            }
+            
+            @media screen and (max-width: 350px) {
+                .priority-2 {
+                    display: none;
+                }
+                .priority-3 {
+                    display: none;
+                }
+                .priority-4 {
+                    display: none;
+                }
+                .priority-5 {
+                    display: none;
+                }
+            }
+            
+            @media screen and (max-width: 280px) {
+                .priority-5 {
+                    display: none;
+                }
+                .priority-4 {
+                    display: none;
+                }
+                .priority-3 {
+                    display: none;
+                }
+                .priority-2 {
+                    display: none;
+                }
+                .priority-6 {
+                    display: none;
+                }
+            }
+            
+            .text-center {
+                width: auto;
+            }
