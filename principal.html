@@ -18,10 +18,11 @@
 <body>
     <div class="d-flex ">
         <div class="row">
-            <!--- Barra lateral -->
+            <!--- Menú -->
             <div class="bg-white col-sm-12 col-md-2">
                 <div class="sidebar-heading text-center py-3 primary-text fs-4 fw-bold">
-                    MI TIENDA OUTLET
+                    <span>MI TIENDA OUTLET</span>
+                    <i class="fas fa-store-alt"></i>
                 </div>
 
                 <nav class="navbar navbar-nav  navbar-light list-group list-group-flush my-3">
@@ -29,6 +30,7 @@
                         <span class="navbar-toggler-icon"></span>
                       </button>
                     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                        <!--Links menú-->
                         <div class="row">
                             <a href="#" class=" nav-item nav-link list-group-item list-group-item-action bg-primary second-text active ps-3 col-md-12"><i class="fas fa-tachometer-alt"></i>
                                 Dashboard </a>
@@ -46,11 +48,13 @@
 
                     </div>
                 </nav>
+                <!--- Footer -->
+                <div class="footer text-center fw-light bg-light p-4 text-dark  d-none d-lg-block align-items-center justify-content-center "><span class="text_footer">Fulgencio Marin Talavera - Copyright © 2022</span></div>
             </div>
             <!--- Main -->
             <div id="main-page" class="container-fluid vh-100  col-sm-12 col-md-10 p-3">
-                <h2 class="my-3 ms-5">Dashboard</h2>
-
+                <h2 class="my-3 ms-5"><i class="fas fa-tachometer-alt"></i> Dashboard</h2>
+                <!--Tarjetas datos-->
                 <div class="row text-center ">
                     <div class="card shadow  m-2 callout-info col-sm-6 col-md-3 flex-grow-1">
                         <div class="card-body">
@@ -71,13 +75,15 @@
                         </div>
                     </div>
                 </div>
-                <h2 class="my-3 ms-5 ">Productos </h2>
+                <h2 class="my-3 ms-5 "><i class="fas fa-box-open"></i> Productos </h2>
                 <div class="card shadow">
                     <div class="card-header fw-bold">Productos más vendidos</div>
                     <div class="card-body ">
+                        <!--Inicio de la tabla-->
                         <table class="table table-striped">
                             <thead>
                                 <tr>
+                                    <!--Cabecera productos-->
                                     <th class="priority-1">IMAGEN</th>
                                     <th class="priority-2">VENTAS</th>
                                     <th class="priority-3">CÓDIGO</th>
@@ -87,6 +93,7 @@
                                 </tr>
                             </thead>
                             <tbody>
+                                <!--Inicio productos-->
                                 <tr class="align-middle">
                                     <td class="priority-1"><img src="./img/xiaomi.png" alt="Xiaomi Redmi Note 9 Pro 6/64GB Verde Tropical"></td>
                                     <td class="priority-2">1232</td>
@@ -127,6 +134,7 @@
                                     <td class="priority-5">56,99 €</td>
                                     <td class="priority-6"><span class="btn btn-primary rounded-pill">Componentes</span></td>
                                 </tr>
+                                <!--Fin de tabla-->
                             </tbody>
                         </table>
                     </div>
@@ -135,8 +143,7 @@
             </div>
         </div>
     </div>
-    <!--- Footer -->
-    <div class="footer text-center fw-bold bg-dark p-4 text-white fixed-bottom d-none d-lg-block">Fulgencio Marin Talavera - Copyright © 2022</div>
+
 </body>
 
 </html>

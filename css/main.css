@@ -102,3 +102,11 @@
             .text-center {
                 width: auto;
             }
+            
+            .footer {
+                max-height: 5px;
+            }
+            
+            .text_footer {
+                margin-bottom: 10px;
+            }
