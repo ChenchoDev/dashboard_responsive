@@ -110,3 +110,11 @@
             .text_footer {
                 margin-bottom: 10px;
             }
+            
+            .form-control {
+                font-style: normal;
+                font-weight: normal;
+                text-decoration: inherit;
+                font-family: "Font Awesome 5 Free";
+                font-weight: 900;
+            }
